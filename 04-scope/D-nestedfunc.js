@@ -4,21 +4,21 @@
 
 /* consider nested functions */
 
-// let globalVar = 'I am global';
-// // console.log(outerVar, innerVar);
+let globalVar = 'I am global';
+// console.log(outerVar, innerVar);
 
-// function outer() {
-//   let outerVar = 'I am outer'; // locally scoped to outer()
+function outer() {
+  let outerVar = 'I am outer'; // locally scoped to outer()
 
-//   // console.log(innerVar);
-//   function inner() {
-//     let innerVar = 'I am inner';
-//     console.log(globalVar, outerVar, innerVar);
-//   }
-//   inner();
-// }
+  // console.log(innerVar);
+  function inner() {
+    let innerVar = 'I am inner';
+    console.log(globalVar, outerVar, innerVar);
+  }
+  inner();
+}
 
-// outer();
+outer();
 
 
 
@@ -116,18 +116,18 @@ inner(): locally-scoped function, can be accessed from anywhere inside the outer
 
 /* the inner function still looks for a local declaration of the variable name before looking at the next level of scope */
 
-function outer() {
-  let outerVar = 'I am outer';
+// function outer() {
+//   let outerVar = 'I am outer';
 
-  function inner(outerVar) {
-    // let outerVar = undefined;
-    let innerVar = 'I am inner';
-    console.log(outerVar, innerVar); // which outerVar will be printed here?
-  }
-  inner();
-}
+//   function inner(outerVar) {
+//     // let outerVar = undefined;
+//     let innerVar = 'I am inner';
+//     console.log(outerVar, innerVar); // which outerVar will be printed here?
+//   }
+//   inner();
+// }
 
-outer();
+// outer();
 
 /*
 Recap: 

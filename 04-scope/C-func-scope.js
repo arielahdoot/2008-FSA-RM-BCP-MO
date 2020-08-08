@@ -4,14 +4,14 @@
 
 /* They CANNOT be referenced outside of the function. */
 
-// function happyFunction() {
-//   let message = 'I am so happy!';
-//   console.log(message); // within the scope
-// }
+function happyFunction() {
+  let message = 'I am so happy!';
+  console.log(message); // within the scope
+}
 
-// happyFunction();
-// console.log('----------------')
-// console.log(message); // not within the scope
+happyFunction();
+console.log('----------------')
+console.log(message); // not within the scope
 
 // ----------------------
 // FUNCTIONAL SCOPE PART 2 - LOCAL AND GLOBAL
@@ -51,14 +51,14 @@
 
 /* parameters are also locally scoped */
 
-let message = 'I am global';
+// let message = 'I am global';
 
-function logAMessage(message) {
-  // let message = 'I am local';
-  console.log(message); // what's the output?
-}
+// function logAMessage(message) {
+//   // let message = 'I am local';
+//   console.log(message); // what's the output?
+// }
 
-logAMessage('I am local');
+// logAMessage('I am local');
 
 // the moment the string 'I am local' is passed
 // as an argument into the logAMessage call,
