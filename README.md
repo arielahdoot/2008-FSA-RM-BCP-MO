@@ -8,8 +8,8 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 
 ## Table of Contents
 
-<!--
 1. [Introduction And Tidy Code](#01-introduction-and-tidy-code)
+<!--
 2. [Loops And Debugging](#02-loops-and-debugging)
 3. [Coercion And Truthiness](#03-coercion-and-truthiness)
 4. [Scope](#04-scope)
@@ -53,10 +53,10 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 3. [Quick Maths](00-additional-notes/03-quick-maths.js)
 4. [String Interpolation](00-additional-notes/04-string-interpolation.js)
 
-<!--
+
 ## **01 Introduction and Tidy Code**
 
-**[Live Lecture](https://youtu.be/sk9Y2mMftzk)**
+**[Live Lecture](https://youtu.be/K28xrsEqhlI)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ab7da028b8e9b000477fd36/content/5ab7dbafa468c900045db6ed/text)
 
@@ -71,7 +71,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 1. [Indenting](01-tidy-code/A-indenting.js)
 2. [Variable Names](01-tidy-code/B-variableNaming.js)
 
-## **02 Loops And Debugging**
+<!-- ## **02 Loops And Debugging**
 
 **[Prerecorded Lecture](https://learn.fullstackacademy.com/workshop/5ac57192f7ff470004a63148/content/5ac571d2bd9f9e0004adb0a4/text)**
 
