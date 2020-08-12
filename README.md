@@ -9,8 +9,8 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 ## Table of Contents
 
 1. [Introduction And Tidy Code](#01-introduction-and-tidy-code)
-<!--
 2. [Loops And Debugging](#02-loops-and-debugging)
+<!--
 3. [Coercion And Truthiness](#03-coercion-and-truthiness)
 4. [Scope](#04-scope)
 5. [Arrays I](#05-arrays-I)
@@ -71,13 +71,13 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 1. [Indenting](01-tidy-code/A-indenting.js)
 2. [Variable Names](01-tidy-code/B-variableNaming.js)
 
-<!-- ## **02 Loops And Debugging**
+## **02 Loops And Debugging**
 
 **[Prerecorded Lecture](https://learn.fullstackacademy.com/workshop/5ac57192f7ff470004a63148/content/5ac571d2bd9f9e0004adb0a4/text)**
 
 [Lecture Slides](00-slides/02-Loops-and-Debugging.pdf)
 
-**[Live Lecture](https://youtu.be/V1HdKQRHWI8)**
+**[Live Lecture](https://youtu.be/4OkRQxcErnw)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ac57192f7ff470004a63148/content/5ac572977ec3340004bddd57/text)
 
@@ -93,7 +93,7 @@ Solutions](https://learn.fullstackacademy.com/workshop/5ac57192f7ff470004a63148/
 4. [Continue Keyword](02-loops-and-debugging/D-continue.js)
 5. [Break Keyword](02-loops-and-debugging/E-break.js)
 
-## **03 Coercion and Truthiness**
+<!-- ## **03 Coercion and Truthiness**
 
 [Lecture Slides](00-slides/03-Coercion-and-Truthiness.pdf)
 

@@ -2,13 +2,13 @@
 
 // continue skips the rest of the code in that iteration of the loop, and moves immediately to the next iteration
 
-for (let i = 1; i <= 5; i++) {
-  if (i === 3) {
-    continue;
-  }
+// for (let i = 1; i <= 5; i++) {
+//   if (i === 3) {
+//     continue; // skip the rest of the code in this loop block, and move on to i = 4
+//   }
 
-  console.log('i is:', i);
-}
+//   console.log('i is:', i);
+// }
 
 /* 
 In this example, the moment i has value 3, we CONTINUE, meaning that we skip the rest of the code in that iteration of the loop (meaning we don't print 'i is 3') and move immediately to the next iteration, where i = 4
@@ -19,17 +19,19 @@ In this example, the moment i has value 3, we CONTINUE, meaning that we skip the
 //---------------------------------------
 
 // the continue keyword also works in while loops
-let count = 5;
+// I want to count down from 5 to 1, but skip all even numbers
 
-while (count >= 1) {
-  if (count % 2 === 0) {
-    count--; 
-    continue;
-  }
+// let count = 5;
 
-  console.log('count is', count);
-  count--;
-}
+// while (count >= 1) {
+//   if (count % 2 === 0) {
+//     count--; 
+//     continue;
+//   }
+
+//   console.log('count is', count);
+//   count--;
+// }
 
 // In this example, the moment count % 2 === 0 (the moment count is an even number), we CONTINUE, 
 // meaning that we skip the rest of the code in that iteration of the loop (meaning we don't print 'count is 5', or execute the decrementation on line 31)

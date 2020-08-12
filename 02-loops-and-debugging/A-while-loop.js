@@ -16,11 +16,11 @@ the block of code will run over and over as long as the conditional expression e
 // WHILE LOOP - EXAMPLE
 //------------------------
 
-let count = 3;
+let count = 3; // initialization
 
-while (count >= 1) {
+while (count >= 1) { // conditional
   console.log('count is', count);
-  count--;
+  count--; // final expression
 }
 
 /*
@@ -52,9 +52,9 @@ Step 6: we check if count >= 1; because
 // WHILE LOOP - NEVER ENTERS THE LOOP
 //------------------------
 
-while (false) {
-  console.log('this line of code will never run');
-}
+// while (false) {
+//   console.log('this line of code will never run');
+// }
 
 /*
 Because the conditional evaluates to false, we never enter the loop

@@ -4,7 +4,7 @@
 Possible use cases for a for loop
 ----------------------------
 - used often if you're iterating over a fixed length
-- can be useful if you want to iterate sequentially, or in intervals, because you can set that up in the 
+- can be useful if you want to iterate sequentially, or in intervals, because you can set that up in the beginning
 */
 
 /* 

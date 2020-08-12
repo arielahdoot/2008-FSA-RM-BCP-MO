@@ -1,6 +1,6 @@
 /* a for loop requires three elements:
   1. the for keyword
-  2. three optional expressions
+  2. three optional expressions, separated by ;
   3. a block of code
 
 for (initialization; condition; final-expression) {
@@ -17,9 +17,18 @@ for (initialization; condition; final-expression) {
 /* then, after each iteration, the final expression is run */
 
 
-for (let i = 1; i <= 3; i++) {
-  console.log('i is:', i);
-}
+// for (let i = 1; i <= 3; i++) {
+//   console.log('i is:', i);
+// }
+
+// EQUIVALENT to
+
+// let i = 1; // initialization
+
+// while (i <= 3) { // conditional
+//   console.log('i is', i);
+//   i++; // final expression
+// }
 
 /*
 Let's keep track of the value of i throughout the iterations
@@ -57,9 +66,9 @@ so we break out of the loop
 //---------------------------------------
 // FOR LOOP - LOOPING FROM LARGER TO SMALLER
 //---------------------------------------
-for (let i = 3; i >= 1; i--) {
-  console.log('i is:', i);
-}
+// for (let i = 3; i >= 1; i--) {
+//   console.log('i is:', i);
+// }
 
 /*
 Let's keep track of the value of i throughout the iterations
@@ -99,9 +108,9 @@ so we break out of the loop
 //---------------------------------------
 
 // can increment by any number
-for (let i = 100; i <= 300; i += 100) {
-  console.log('i is:', i);
-}
+// for (let i = 100; i <= 300; i += 100) {
+//   console.log('i is:', i);
+// }
 
 //---------------------------------------
 // FOR LOOP - ITERATE THROUGH A STRING
