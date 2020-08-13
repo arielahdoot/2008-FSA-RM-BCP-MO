@@ -105,6 +105,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 
 [Solutions](https://learn.fullstackacademy.com/workshop/5ac574e51abd3200043c12e8/content/5ac574e51abd3200043c12ee/text)
 
+<!--
 ### Notes
 
 [Full Notes](03-coercion-and-truthiness)
@@ -116,6 +117,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 5. [Boolean Coercion 2](03-coercion-and-truthiness/E-boolean-coercion-2.js)
 6. [Boolean Coercion 3](03-coercion-and-truthiness/F-boolean-coercion-3.js)
 7. [Logical Operators](03-coercion-and-truthiness/G-logical-operators-1.js)
+-->
 
 <!-- ## **04 Scope**
 
