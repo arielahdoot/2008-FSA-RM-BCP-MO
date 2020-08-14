@@ -119,9 +119,9 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 7. [Logical Operators](03-coercion-and-truthiness/G-logical-operators-1.js)
 -->
 
-<!-- ## **04 Scope**
+## **04 Scope**
 
-**[Live Lecture](https://youtu.be/E_z8CfvjEZY)**
+**[Live Lecture](https://www.youtube.com/watch?v=Iod61uu6aXg)**
 
 **[Scope Workshop Problems 4 & 5 Review](https://youtu.be/VRGF_o7OGfA)**
 
@@ -141,7 +141,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 6. [Hoisting](04-scope/F-hoisting.js)
 7. [Best Practices](04-scope/G-bestpract.js)
 
-## **05 Arrays I**
+<!-- ## **05 Arrays I**
 
 **[Live Lecture](https://youtu.be/GDtUeWtrHEU)**
 
