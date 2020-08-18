@@ -150,6 +150,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 
 [Solutions](https://learn.fullstackacademy.com/workshop/5ac57806bd9f9e0004adb186/content/5ac57806bd9f9e0004adb18c/text)
 
+<!--
 ### Notes
 
 [Full Notes](05-arrays-I)
@@ -168,6 +169,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 12. [Array.slice()](05-arrays-I/L-array-slice.js)
 13. [Array.includes()](05-arrays-I/M-array-includes.js)
 14. [Array.reverse()](05-arrays-I/N-array-reverse.js)
+-->
 
 <!-- ## **06 Arrays II**
 
