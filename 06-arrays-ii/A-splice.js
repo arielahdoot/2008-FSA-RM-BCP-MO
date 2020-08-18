@@ -12,13 +12,13 @@ the second argument is a count of elements to delete from the array, starting at
 it returns a new array with all of the removed elements 
 */
 
-// let names = ['George', 'John', 'Thomas'];
+let names = ['George', 'John', 'Thomas'];
 
-// // in this example, we're saying that we want to remove 1 element, starting from index 1, and store that removed element (and any other removed elements if applicable) in an array with name singleTermPresidents
-// let singleTermPresidents = names.splice(1, 1);
+// in this example, we're saying that we want to remove 1 element, starting from index 1, and store that removed element (and any other removed elements if applicable) in an array with name singleTermPresidents
+let singleTermPresidents = names.splice(1, 1);
 
-// console.log(names);
-// console.log(singleTermPresidents);
+console.log(names);
+console.log(singleTermPresidents);
 
 /*
 Notes:
@@ -69,13 +69,13 @@ Notes:
 
 /* you don't have to remove any elements if you want to add elements! */
 
-let names = ['Paul', 'George', 'Ringo', 'John'];
+// let names = ['Paul', 'George', 'Ringo', 'John'];
 
-// notice the 2nd argument is a 0, meaning that we don't want to remove any elements in this .splice() call, but we are adding the elements 'Pete' and 'Stuart'
-let removedElements = names.splice(2, 0, 'Pete', 'Stuart');
+// // notice the 2nd argument is a 0, meaning that we don't want to remove any elements in this .splice() call, but we are adding the elements 'Pete' and 'Stuart'
+// let removedElements = names.splice(2, 0, 'Pete', 'Stuart');
 
-console.log(names);
-console.log(removedElements);
+// console.log(names);
+// console.log(removedElements);
 
 /*
 Notes:
