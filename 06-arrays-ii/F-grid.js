@@ -13,7 +13,9 @@ let grid = [
 let firstRow = grid[0];
 console.log(firstRow);
 
-let firstColumn = [grid[0][0], grid[1][0], grid[2][0]];
+let firstColumn = 
+[grid[0][0], grid[1][0], grid[2][0]];
+
 console.log(firstColumn);
 
 console.log(grid[1][2]); // which element do you think will be printed out here?

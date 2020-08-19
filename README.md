@@ -10,11 +10,11 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 
 1. [Introduction And Tidy Code](#01-introduction-and-tidy-code)
 2. [Loops And Debugging](#02-loops-and-debugging)
-<!--
 3. [Coercion And Truthiness](#03-coercion-and-truthiness)
 4. [Scope](#04-scope)
 5. [Arrays I](#05-arrays-I)
 6. [Arrays II](#06-arrays-ii)
+<!--
 7. [Objects](#07-objects-i)
 8. [Object Methods](#08-objects-ii)
 9. [Pass By Value, Pass By Reference](#09-pass-by-value-pass-by-reference)
@@ -171,9 +171,9 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 14. [Array.reverse()](05-arrays-I/N-array-reverse.js)
 -->
 
-<!-- ## **06 Arrays II**
+## **06 Arrays II**
 
-**[Live Lecture](https://youtu.be/FOx6DlR0ftQ)**
+**[Live Lecture](https://youtu.be/5vyAnVIa_uQ)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ac579437ec3340004bdde15/content/5ac579437ec3340004bdde1a/text)
 
@@ -190,7 +190,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 5. [Nested Looping](06-arrays-ii/E-nested-looping.js)
 6. [Grid](06-arrays-ii/F-grid.js)
 
-## **07 Objects I**
+<!-- ## **07 Objects I**
 
 **[Live Lecture](https://youtu.be/4tFBt-OCkB4)**
 

@@ -2,7 +2,11 @@
 
 /* an array that contains one or more arrays as an element is called a nested array */
 
-let relatedThings = [['Windows', 'MacOS'], ['New York', 'Chicago']];
+let relatedThings = 
+[
+  ['Windows', 'MacOS'], 
+  ['New York', 'Chicago']
+];
 
 console.log(relatedThings[0]);
 // accessing the first element of the relatedThings array, which is the array ['Windows', 'MacOS']
