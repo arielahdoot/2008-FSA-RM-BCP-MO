@@ -190,9 +190,10 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 5. [Nested Looping](06-arrays-ii/E-nested-looping.js)
 6. [Grid](06-arrays-ii/F-grid.js)
 
-<!-- ## **07 Objects I**
+## **07 Objects I**
 
-**[Live Lecture](https://youtu.be/4tFBt-OCkB4)**
+**[Live Lecture](https://youtu.be/aLTP7hnIYFg)**
+**[Live Solutions](https://youtu.be/Cu9EIQcc8d4)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ac57b3ebd9f9e0004adb210/content/5ac57b3ebd9f9e0004adb215/text)
 
@@ -214,7 +215,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 9. [Nested Objects](07-objects-i/09-nested-object.js)
 10. [Animal Noises Review](07-objects-i/10-animal-noises-review.js)
 
-## **08 Objects II**
+<!-- ## **08 Objects II**
 
 **[Live Lecture](https://youtu.be/GZCwhot5uBA)**
 
