@@ -227,7 +227,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 
 [Full Notes](08-objects-ii)
 
-1. [What Are Methods](08-objects-ii/A-what-is-a-method.js)
+1. [What Are Methods](08-objects-ii/A-whatisamethod.js)
 2. [Creating Methods](08-objects-ii/B-createmethods.js)
 3. [this](08-objects-ii/C-this.js)
 
