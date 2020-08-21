@@ -2,12 +2,12 @@
 
 /* Consider this object: */
 
-let pusheen = {
-  name: 'Pusheen',
-  age: 7,
-  color: 'gray and tabby',
-  isHappy: true,
-};
+// let pusheen = {
+//   name: 'Pusheen',
+//   age: 7,
+//   color: 'gray and tabby',
+//   isHappy: true,
+// };
 
 /* objects can hold any type of value, including functions! */
 
@@ -30,7 +30,9 @@ let pusheen = {
 //   }
 // };
 
-// /* we can call our own object methods the same way we call built-in methods */
+// /* 
+// we can call our own object methods the same way we call built-in methods 
+// */
 
 // pusheen.myMethod();
 // pusheen.sayHi();
@@ -76,12 +78,12 @@ an object method is simply a function specific to an object
 //   getBirthYear: function(currentYear){ // takes an argument
 //     return currentYear - 7;
 //   },
-//   personalGreet: function(name = 'Sam') { // takes an argument
-//     console.log(`Hello ${name}! I am Pusheen.`);
-//   },
-//   sayAge: function(){
-//     console.log('I am 7 years old.');
-//   },
+  // personalGreet: function(name = 'Sam') { // takes an argument
+  //   console.log(`Hello ${name}! I am Pusheen.`);
+  // },
+  // sayAge: function(){
+  //   console.log('I am 7 years old.');
+  },
 // };
 
 // /*
@@ -89,7 +91,6 @@ an object method is simply a function specific to an object
 // */
 // console.log(pusheen.getBirthYear(2020));
 // pusheen.personalGreet('Ariel');
-
 // pusheen.sayAge();
 
 /*
@@ -103,11 +104,11 @@ important: since methods are just functions, anything that was possible with a f
 // String Interpolation
 
 // let myName = 'Ariel';
-// let myAge = 25;
+// let myAge = 26;
 // I want to compose a string that says that my name is Ariel and that my age is 26
 
 /*
--  Step 1: tick mark ``, in order to use string interpolation, the string MUST be surrounded by a `` (tick mark), and NOT '' (normal quotes)
+-  Step 1: instead of using '', use tick marks ``, in order to use string interpolation, the string MUST be surrounded by a `` (tick mark), and NOT '' (normal quotes)
 
 - Step 2: have any variable/value that you want to   insert be surrounded by a ${}
   ------------------------
@@ -116,12 +117,12 @@ important: since methods are just functions, anything that was possible with a f
   - ^ this will seamlessly add the variable into the string you are creating
 */
 
-// let myName = 'Ariel';
-// let myAge = 25;
+let myName = 'Ariel';
+let myAge = 26;
 
-// let usingStringInterpol = `My name is ${myName} and my age is ${myAge}`
+let usingStringInterpol = `My name is ${myName} and my age is ${myAge}`
 
-// let notUsingStringInterpol = 'My name is ' + myName + ' and my age is ' + myAge
+let notUsingStringInterpol = 'My name is ' + myName + ' and my age is ' + myAge
 
-// console.log(usingStringInterpol);
-// console.log(notUsingStringInterpol);
+console.log(usingStringInterpol);
+console.log(notUsingStringInterpol);

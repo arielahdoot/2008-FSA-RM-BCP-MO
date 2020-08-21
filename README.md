@@ -14,9 +14,9 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 4. [Scope](#04-scope)
 5. [Arrays I](#05-arrays-I)
 6. [Arrays II](#06-arrays-ii)
-<!--
 7. [Objects](#07-objects-i)
 8. [Object Methods](#08-objects-ii)
+<!--
 9. [Pass By Value, Pass By Reference](#09-pass-by-value-pass-by-reference)
 10. [Higher Order Functions I](#10-higher-order-functions-i)
 11. [Higher Order Functions II](#10-higher-order-functions-ii)
@@ -199,7 +199,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 
 [Solutions](https://learn.fullstackacademy.com/workshop/5ac57b3ebd9f9e0004adb210/content/5ac57b3ebd9f9e0004adb216/text)
 
-### Notes
+<!-- ### Notes
 
 [Full Notes](07-objects-i)
 
@@ -214,10 +214,10 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 8. [Nested Arrays](07-objects-i/08-nested-arrays.js)
 9. [Nested Objects](07-objects-i/09-nested-object.js)
 10. [Animal Noises Review](07-objects-i/10-animal-noises-review.js)
+-->
+## **08 Objects II**
 
-<!-- ## **08 Objects II**
-
-**[Live Lecture](https://youtu.be/GZCwhot5uBA)**
+**[Live Lecture](https://youtu.be/YhrEZgoyqzM)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ac57cb8bd9f9e0004adb24a/content/5ac57cb8bd9f9e0004adb24e/text)
 
@@ -231,7 +231,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 2. [Creating Methods](08-objects-ii/B-createmethods.js)
 3. [this](08-objects-ii/C-this.js)
 
-## **09 Pass by Value, Pass by Reference**
+<!-- ## **09 Pass by Value, Pass by Reference**
 
 **[Live Lecture](https://youtu.be/Tq2362cRD3Y)**
 

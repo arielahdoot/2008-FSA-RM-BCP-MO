@@ -1,8 +1,12 @@
 // so what is a method?
 
-/* Methods are actions you can perform on a value */
+/* 
+Methods are actions you can perform on a value 
+*/
 
-/* We've been using methods throughout this course, like .indexOf */
+/* 
+We've been using methods throughout this course, like .indexOf 
+*/
 
 /* these methods are built into JS; we don't have to define them ourselves */
 

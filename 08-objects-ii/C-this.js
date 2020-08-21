@@ -2,27 +2,27 @@
 
 // one way to reference properties of an object is to use normal object property access, such as dot notation (objectName.propertyName)
 
-let pusheen = {
-  name: 'Pusheen',
-  age: 7,
-  color: 'gray and tabby',
-  isHappy: true,
-  greet: function(name){
-    console.log(`Hello ${name}, I am ${pusheen.name} the ${pusheen.color} cat. I am ${pusheen.age}.`); // referencing yourself, different properties of the object you are currently inside of
-  },
-  birthYear: function(currentYear){
-    return currentYear - pusheen.age;
-  }
-};
+// let pusheen = {
+//   name: 'Pusheen',
+//   age: 7,
+//   color: 'gray and tabby',
+//   isHappy: true,
+//   greet: function(name){
+//     console.log(`Hello ${name}, I am 
+//     ${pusheen.name} the ${pusheen.color} cat. I am ${pusheen.age}.`); // referencing yourself, different properties of the object you are currently inside of
+//   },
+//   birthYear: function(currentYear){
+//     return currentYear - pusheen.age;
+//   }
+// };
 
-// this works great because if any of the properties get changed, the methods will always have the correct information
+// // this works great because if any of the properties get changed, the methods will always have the correct information
 
-pusheen.greet('Jeff');
-pusheen.age++;
-pusheen.age++;
-pusheen.name = "Pusheen the Great";
-console.log(pusheen);
-pusheen.greet('Jeff');
+// pusheen.greet('Jeff');
+// pusheen.age++;
+// pusheen.age++;
+// pusheen.name = "Pusheen the Great";
+// pusheen.greet('Jeff');
 
 // -------------------------------------------
 // Introducing the this Keyword
@@ -47,7 +47,6 @@ pusheen.greet('Jeff');
 //   getThis: function() {
 //     return this; // return the pusheen object
 //   }
-
 // };
 
 // pusheen.greet('Matt');
@@ -73,9 +72,9 @@ pusheen.greet('Jeff');
 //   }
 // };
 
-// // console.log(calc.sum());
-// // calc.num2 = 15;
-// // console.log(calc.difference());
+// console.log(calc.sum());
+// calc.num2 = 15;
+// console.log(calc.difference());
 
 // -------------------------------------------
 // this and arrow methods
@@ -105,27 +104,27 @@ arrowTest('Ariel');
 
 // if you attempt to refer to this while inside of an arrow function, it will only refer to the arrow function itself - it won't remember the object that it exists inside of
 
-// let calc = {
-//   num1: 20,
-//   num2: 30,
-//   sum: function() {
-//     return this.num1 + this.num2;
-//   },
-//   difference: function() {
-//     return this.num1 - this.num2;
-//   },
-//   product1: function() {
-//     return this.num1*this.num2;
-//     // this DOES refer to calc, BECAUSE it's inside of a normal function
-//   },
-//   product2: () => {
-//     return this.num1*this.num2;
-//     // this does NOT refer to calc, BECAUSE it's inside of an arrow function
-//   }
-// };
+let calc = {
+  num1: 20,
+  num2: 30,
+  sum: function() {
+    return this.num1 + this.num2;
+  },
+  difference: function() {
+    return this.num1 - this.num2;
+  },
+  product1: function() {
+    return this.num1*this.num2;
+    // this DOES refer to calc, BECAUSE it's inside of a normal function
+  },
+  product2: () => {
+    return this.num1*this.num2;
+    // this does NOT refer to calc, BECAUSE it's inside of an arrow function
+  }
+};
 
-// // in a normal function, accessing this.num1 will give you 20 and accessing this.num2 will give you 30 -> 20 * 30 = 600
-// console.log(calc.product1());
+// in a normal function, accessing this.num1 will give you 20 and accessing this.num2 will give you 30 -> 20 * 30 = 600
+console.log(calc.product1());
 
-// // be aware of the consequences of adding arrow functions -> it changes THIS
-// console.log(calc.product2());
+// be aware of the consequences of adding arrow functions -> it changes THIS
+console.log(calc.product2());
