@@ -231,9 +231,10 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 2. [Creating Methods](08-objects-ii/B-createmethods.js)
 3. [this](08-objects-ii/C-this.js)
 
-<!-- ## **09 Pass by Value, Pass by Reference**
+## **09 Pass by Value, Pass by Reference**
 
-**[Live Lecture](https://youtu.be/Tq2362cRD3Y)**
+**[Live Lecture](https://youtu.be/mCdJI9ItTZw)**
+**[Live Solutions](https://youtu.be/Cc0-vymjkPo)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5aca3ccb37312200043b62bb/content/5aca3ccb37312200043b62bf/text)
 
@@ -255,7 +256,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 10. [Equality and Comparisons](09-pass-by-value-pass-by-reference/J-equality.js)
 11. [PBV-PBR & Array.slice()](09-pass-by-value-pass-by-reference/K-array-slice.js)
 
-## **10 Higher Order Functions I**
+<!-- ## **10 Higher Order Functions I**
 
 **[Live Lecture](https://youtu.be/8CBlAbgo6jk)**
 
