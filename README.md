@@ -240,7 +240,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 
 [Solutions](https://learn.fullstackacademy.com/workshop/5aca3ccb37312200043b62bb/content/5aca3ccb37312200043b62c1/text)
 
-### Notes
+<!-- ### Notes
 
 [Full Notes](09-pass-by-value-pass-by-reference)
 
@@ -254,11 +254,11 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 8. [Passing Primitive Values as Arguments](09-pass-by-value-pass-by-reference/H-pass-prim.js)
 9. [Passing Complex Values as Arguments](09-pass-by-value-pass-by-reference/I-pass-comp.js)
 10. [Equality and Comparisons](09-pass-by-value-pass-by-reference/J-equality.js)
-11. [PBV-PBR & Array.slice()](09-pass-by-value-pass-by-reference/K-array-slice.js)
+11. [PBV-PBR & Array.slice()](09-pass-by-value-pass-by-reference/K-array-slice.js) -->
 
-<!-- ## **10 Higher Order Functions I**
+## **10 Higher Order Functions I**
 
-**[Live Lecture](https://youtu.be/8CBlAbgo6jk)**
+**[Live Lecture](https://youtu.be/Q0d6Ti3Zbwo)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5aca3eba37312200043b62f7/content/5aca3eba37312200043b62fb/text)
 
@@ -276,7 +276,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 4. [Anonymous Functions](10-high-order-functions-i/D-anon-functions.js)
 5. [.forEach](10-high-order-functions-i/E-for-each.js)
 
-## **11 Higher Order Functions II**
+<!-- ## **11 Higher Order Functions II**
 
 **[Live Lecture](https://youtu.be/pAtDHJs5bis)**
 

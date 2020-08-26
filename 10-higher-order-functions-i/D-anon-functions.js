@@ -28,17 +28,17 @@ Notes:
 
 // A common use for anonymous functions is as arguments to other functions. 
 
-// function sayToAll(names, sayWithNameFunc) {
-//   for(let i = 0; i < names.length; i++) {
-//     sayWithNameFunc(names[i]);
-//   }
-// }
+function sayToAll(names, sayWithNameFunc) {
+  for(let i = 0; i < names.length; i++) {
+    sayWithNameFunc(names[i]);
+  }
+}
 
-// let group = ["Jane", "Jill", "Pip", "Mike"];
+let group = ["Jane", "Jill", "Pip", "Mike"];
 
-// sayToAll(group, function (name) {
-//   console.log("Bye, " + name + "!");
-// });
+sayToAll(group, function (name) {
+  console.log("Bye, " + name + "!");
+});
 
 /*
 Notes:

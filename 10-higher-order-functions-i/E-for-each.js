@@ -14,13 +14,13 @@
 // .forEach EXAMPLE 1
 // ------------------------------
 
-let bridges = ['Brooklyn', 'Golden Gate', 'London'];
+// let bridges = ['Brooklyn', 'Golden Gate', 'London'];
 
-function logUpperCase(string) {
-  console.log(string.toUpperCase());
-}
+// function logUpperCase(string) {
+//   console.log(string.toUpperCase());
+// }
 
-bridges.forEach(logUpperCase);
+// bridges.forEach(logUpperCase);
 
 /* equivalent to:
 -----------------
@@ -48,6 +48,7 @@ Notes:
 // }
 
 // bridges.forEach(logWithIdx);
+
 /* equivalent to:
 -----------------
 for(let i = 0; i < bridges.length; i++){
@@ -67,17 +68,17 @@ Notes:
 
 /* you can also use .forEach with an anonymous function */
 
-// let bridges = ['Brooklyn', 'Golden Gate', 'London'];
+let bridges = ['Brooklyn', 'Golden Gate', 'London'];
 
-// // function logWithIdx(string, idx) {
-// //   console.log(string, 'is at index', idx);
-// // }
-
-// // I am replacing the function logWithIdx that is passed into the .forEach call with an anonymous function that does the exact same thing, to show that you can use anonymous functions with .forEach as well
-
-// bridges.forEach(function (string, idx){
+// function logWithIdx(string, idx) {
 //   console.log(string, 'is at index', idx);
-// });
+// }
+
+// I am replacing the function logWithIdx that is passed into the .forEach call with an anonymous function that does the exact same thing, to show that you can use anonymous functions with .forEach as well
+
+bridges.forEach(function (string, idx){
+  console.log(string, 'is at index', idx);
+});
 /* equivalent to:
 -----------------
 for(let i = 0; i < bridges.length; i++){

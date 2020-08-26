@@ -2,15 +2,15 @@
 
 /* we know we can push strings, or any value into arrays */
 
-let amazingArray = [];
+// let amazingArray = [];
 
-let happyString = 'happy';
+// let happyString = 'happy';
 
-amazingArray.push(happyString);
-amazingArray.push(happyString);
-amazingArray.push(happyString);
+// amazingArray.push(happyString);
+// amazingArray.push(happyString);
+// amazingArray.push(happyString);
 
-console.log(amazingArray);
+// console.log(amazingArray);
 
 // ------------------------------
 // PUSHING FUNCTIONS INTO ARRAYS
@@ -45,16 +45,16 @@ Notes:
 
 /* how do we call all the functions in the array? how have we always looped through an array of values? */
 
-// function happyFunction() {
-//   console.log('I am happy!');
-// }
+function happyFunction() {
+  console.log('I am happy!');
+}
 
-// let amazingArray = [happyFunction, happyFunction, happyFunction];
+let amazingArray = [happyFunction, happyFunction, happyFunction];
 
-// for (let i = 0; i < amazingArray.length; i++) {
-//   let element = amazingArray[i]; // each element is a function!
-//   element();// we invoke the function the same as always, with parentheses
-// }
+for (let i = 0; i < amazingArray.length; i++) {
+  let element = amazingArray[i]; // each element is a function!
+  element();// we invoke the function the same as always, with parentheses
+}
 
 /*
 Notes:
