@@ -16,9 +16,9 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 6. [Arrays II](#06-arrays-ii)
 7. [Objects](#07-objects-i)
 8. [Object Methods](#08-objects-ii)
-<!--
 9. [Pass By Value, Pass By Reference](#09-pass-by-value-pass-by-reference)
 10. [Higher Order Functions I](#10-higher-order-functions-i)
+<!--
 11. [Higher Order Functions II](#10-higher-order-functions-ii)
 12. [Recursion I](#12-recursion-i)
 13. [Recursion II](#13-recursion-ii)
