@@ -276,9 +276,10 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 4. [Anonymous Functions](10-high-order-functions-i/D-anon-functions.js)
 5. [.forEach](10-high-order-functions-i/E-for-each.js)
 
-<!-- ## **11 Higher Order Functions II**
+## **11 Higher Order Functions II**
 
-**[Live Lecture](https://youtu.be/pAtDHJs5bis)**
+**[Live Lecture](https://youtu.be/Bj8MJ8q_Hd0)**
+**[Solutions](https://youtu.be/W4Cv02x3V5Q)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5aca4075097e670004598a96/content/5aca4075097e670004598a9a/text)
 
@@ -293,7 +294,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 3. [Passing Functions in Functions](11-higher-order-functions-ii/C-scope.js)
 4. [Closure](11-higher-order-functions-ii/D-closure.js)
 
-## **12 Recursion I**
+<!-- ## **12 Recursion I**
 
 **[Live Lecture](https://youtu.be/agKcO2VW5b8)**
 
