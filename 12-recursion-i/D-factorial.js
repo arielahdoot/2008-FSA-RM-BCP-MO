@@ -94,19 +94,18 @@ Recursive Case - if the Base Case is NOT proven true, we've reached the recursiv
 
 // Note: it's safe to run THIS code on pythontutor (http://pythontutor.com/javascript.html#mode=edit)
 
-// function factorial(num) {
-//   // base case: num is 0 or 1
-//   if (num === 0 || num === 1) {
-//     return 1;
-//   }
-//   // recursive case: num must get closer to 0 or 1
-//   // just have to return the result now
-//   let result = num * factorial(num - 1);
-//   return result;
-// }
+function factorial(num) {
+  // base case: num is 0 or 1
+  if (num === 0 || num === 1) {
+    return 1;
+  }
+  // recursive case: num must get closer to 0 or 1
+  // just have to return the result now
+  let result = num * factorial(num - 1);
+  return result;
+}
 
-// let threeFactorial = factorial(3);
-// console.log(threeFactorial);
+console.log(factorial(3));
 
 /*
 Breakdown
@@ -199,5 +198,5 @@ three takeaways from factorial:
 
 3. test your function against more-complex inputs (ex. 5)
 
-4. You should try to use Chrome's debugger, it can help inspect recursive calls, because console.log will not be as useful with recursion. 
+4. You should try to use Chrome's debugger or a visualizer, it can help inspect recursive calls, because console.log will not be as useful with recursion. 
 */

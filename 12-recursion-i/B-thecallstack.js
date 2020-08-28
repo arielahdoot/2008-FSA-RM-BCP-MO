@@ -92,17 +92,17 @@ EMPTY
 // Call Stack - Example 2 - Functions within functions
 // ------------------------------------------
 
-// function first() {
-//   console.log('I am first!');
-//   second();
-//   console.log('First is finished');
-// }
+function first() {
+  console.log('I am first!');
+  second();
+  console.log('First is finished');
+}
 
-// function second() {
-//   console.log('I am second!');
-// }
+function second() {
+  console.log('I am second!');
+}
 
-// first();
+first();
 
 /*
 Breakdown

@@ -1,12 +1,12 @@
 // Let's write a function that takes a number as argument, and counts down from that number to 1
 
-function countdown(num) {
-  for (let i = num; i >= 1; i--) {
-    console.log(i);
-  }
-}
+// function countdown(num) {
+//   for (let i = num; i >= 1; i--) {
+//     console.log(i);
+//   }
+// }
 
-countdown(5);
+// countdown(5);
 
 // -----------------------------------------------
 // A different perspective on countdown
@@ -14,17 +14,17 @@ countdown(5);
 
 // Let's refactor our solution, by instead working with a function that takes a number and logs it out
 
-// function countdown(num) {
-//   console.log(num);
-// }
+function countdown(num) {
+  console.log(num);
+}
 
 // // how would we be able to countdown from 5 to 1 if we were using this function?
 
-// countdown(5);
-// countdown(4);
-// countdown(3);
-// countdown(2); // notice, no loops!
-// countdown(1); // how do the arguments change between calls?
+countdown(5);
+countdown(4);
+countdown(3);
+countdown(2); // notice, no loops!
+countdown(1); // how do the arguments change between calls?
 
 // Notice that in this solution, there are NO loops, but instead, we change the argument passed into countdown() each time - specifically, we're decrementing the argument each time by 1!
 
@@ -226,19 +226,20 @@ Recursive Case: otherwise
 // Note: it's safe to run THIS code on pythontutor (http://pythontutor.com/javascript.html#mode=edit)
 // If you run this on pythontutor - it's normal to see the return value be undefined for this example, because we're only printing, not returning any values
 
-// function countdown(num) {
-//   // here's our base case, checking if num < 1
-//   if (num < 1) {
-//     console.log('done!');
-//   }
-//   // here's our 'recursive case', which occurs only if the num >= 1 (if the above if-block is false)
-//   else {
-//     console.log(num);
-//     countdown(num - 1);
-//   }
-// }
+function countdown(num) {
+  // here's our base case, checking if num < 1
+  if (num < 1) {
+    console.log('done!');
+    return;
+  }
+  // here's our 'recursive case', which occurs only if the num >= 1 (if the above if-block is false)
+  else {
+    console.log(num);
+    countdown(num - 1);
+  }
+}
 
-// countdown(3);
+countdown(3);
 
 /*
 Breakdown
