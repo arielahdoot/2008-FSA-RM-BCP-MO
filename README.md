@@ -18,9 +18,9 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 8. [Object Methods](#08-objects-ii)
 9. [Pass By Value, Pass By Reference](#09-pass-by-value-pass-by-reference)
 10. [Higher Order Functions I](#10-higher-order-functions-i)
-<!--
 11. [Higher Order Functions II](#10-higher-order-functions-ii)
 12. [Recursion I](#12-recursion-i)
+<!--
 13. [Recursion II](#13-recursion-ii)
     -->
 
@@ -294,9 +294,9 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 3. [Passing Functions in Functions](11-higher-order-functions-ii/C-scope.js)
 4. [Closure](11-higher-order-functions-ii/D-closure.js)
 
-<!-- ## **12 Recursion I**
+## **12 Recursion I**
 
-**[Live Lecture](https://youtu.be/agKcO2VW5b8)**
+**[Live Lecture](https://youtu.be/tC3TfaZALO0)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5aca423037312200043b634a/content/5aca423137312200043b634e/text)
 
@@ -313,7 +313,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 5. [Iterables](12-recursion-i/E-iterables.js)
 6. [Hints](12-recursion-i/F-hints.js)
 
-## **13 Recursion II**
+<!-- ## **13 Recursion II**
 
 **[Live Lecture]()**
 
