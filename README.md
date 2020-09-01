@@ -313,9 +313,10 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 5. [Iterables](12-recursion-i/E-iterables.js)
 6. [Hints](12-recursion-i/F-hints.js)
 
-<!-- ## **13 Recursion II**
+## **13 Recursion II**
 
-**[Live Lecture]()**
+**[Live Lecture](https://youtu.be/d-WfU4CjkMU)**
+**[Solutions](https://youtu.be/wXt0FrrQHTQ)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5aca509c37312200043b6422/content/5aca509c37312200043b6426/text)
 
@@ -327,4 +328,3 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 1. [logsAnArray](13-recursion-ii/A-logsAnArray.js)
 2. [concatEls](13-recursion-ii/B-concatEls.js)
 3. [sumVals](13-recursion-ii/C-sumVals.js)
--->
