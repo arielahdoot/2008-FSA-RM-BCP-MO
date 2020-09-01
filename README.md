@@ -316,7 +316,7 @@ Hello! This is where Ariel and Niharika will put all the material for BCP. If an
 ## **13 Recursion II**
 
 **[Live Lecture](https://youtu.be/d-WfU4CjkMU)**
-**[Solutions](https://youtu.be/wXt0FrrQHTQ)**
+**[Live Solutions](https://youtu.be/wXt0FrrQHTQ)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5aca509c37312200043b6422/content/5aca509c37312200043b6426/text)
 
